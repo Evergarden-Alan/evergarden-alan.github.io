@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('#search-input').bind('keyup', function() {
+    $('#search-input').bind('keyup touchend', function() {
         var jqueryInput = $(this);
         //用户输入
         var searchText = jqueryInput.val();
