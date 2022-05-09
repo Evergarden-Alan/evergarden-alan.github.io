@@ -4,7 +4,7 @@ $(document).ready(function(){
         //用户输入
         var searchText = jqueryInput.val();
         //请求必应的服务器，获得相关搜索信息
-        var sugurl = "http://api.bing.com/qsonhs.aspx?type=cb&q=#content#&cb=window.bing.sug";
+        var sugurl = "https://api.bing.com/qsonhs.aspx?type=cb&q=#content#&cb=window.bing.sug";
         sugurl = sugurl.replace("#content#", searchText);
         var result = new Array();
         window.bing = {
